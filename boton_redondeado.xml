@@ -10,10 +10,11 @@
 </shape>
 <!---------------Otra forma de hacerlo---------->
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
-        android:startColor="#ff15caca"
-        android:endColor="#ff1ad4bd"/>
-
-    <corners android:radius= "50dp" />
+        android:type="linear"
+        android:angle="0"
+        android:startColor="#ff3cecb3"
+        android:endColor="#ff43d7dc" />
+    <corners android:radius="40dp" />
 </shape>
